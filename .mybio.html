@@ -1,29 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
 
-</head>
-<body>
+    <body>
     <!--Site Header-->
     <header>
         <h1>Student Bio</h1>
     </header>
-    
+
+    <div class="container">
     <!--Website Main-->
     <!--Section 1: Bio -->
-    <Section1>
-        <h2>Rachel Strong</h2>
+    <Section1 id="main-bio">
+        <h2 id="myname">Rachel Strong</h2>
         <!--My Profile Pic-->
-        <img src="https://media-exp1.licdn.com/dms/image/C4E03AQGWHpe0po38dg/profile-displayphoto-shrink_200_200/0/1574429315979?e=1617235200&v=beta&t=TQM063l-dfIRqNszQZNVfT1CXlaSDdbQWchKnCpxtxo" alt="Rachel's pic">
+        <img id="bioimg" src="https://media-exp1.licdn.com/dms/image/C4E03AQGWHpe0po38dg/profile-displayphoto-shrink_200_200/0/1574429315979?e=1617235200&v=beta&t=TQM063l-dfIRqNszQZNVfT1CXlaSDdbQWchKnCpxtxo" alt="Rachel's pic">
         <!--About Me-->
         <p>I'm Rachel, I'm 25, and I'm excited to learn to code!</p>
         <p>
             <a href="https://www.linkedin.com/in/rachel-strong-54276a142/">Check out my Linkedin!</a>
         </p>
-    </Section1>
+    </Section1 id="contact-info">
     <!--Section 2-->
     <Section2>
         <h2>Contact Me</h2>
@@ -35,6 +37,12 @@
         </ul>
     </Section2>
 
+    </div>
+    <!--A Footer-->
+    <footer>
+        <p>This is the footer</p>
+    </footer>
 
-</body>
+
+    </body>
 </html>
